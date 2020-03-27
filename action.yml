@@ -1,0 +1,19 @@
+name: gh-actions HTTP STATUS
+description: Check HTTP status code of websites in your Github Actions.
+author: David Adi Nugroho <davidadi216@gmail.com>
+
+branding:
+  icon: server
+  color: green
+
+inputs:
+  sites:
+    description: 'List website urls in JSON (eg: ["http://github.com", "https://education.github.com"])'
+    required: true
+  expected:
+    description: 'List expected HTTP status codes in JSON (eg: [301, 200])'
+    required: true
+
+runs:
+  using: docker
+  image: Dockerfile
