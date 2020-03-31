@@ -25,7 +25,7 @@ http_status() {
     
     fi
     
-    echo -e "${result} HTTP Status for ${1} is ${actual_status}, expected ${expected_status}"
+    echo -e "${result} HTTP Status for ${site_url} is ${actual_status}, expected ${expected_status}"
 }
 
 echo -e "\n\n==Starting gh-actions HTTP Status==\n"

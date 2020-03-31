@@ -1,4 +1,4 @@
-name: gh-actions HTTP STATUS
+name: HTTP Status
 description: Check HTTP status code of websites in your Github Actions.
 author: David Adi Nugroho <davidadi216@gmail.com>
 
