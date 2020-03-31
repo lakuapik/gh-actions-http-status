@@ -3,7 +3,8 @@ Check your website http status codes in your Github Actions.
 
 ## Usage
 
-Create your Github Workflow configuration in `.github/workflows/http_status.yml` or similar.
+Create your Github Workflow configuration in `.github/workflows/http_status.yml` or similar.  
+Example: [http_status.yml](.github/workflows/http_status.yml)
 
 ```yml
 name: Workflow for checking http status codes

@@ -7,7 +7,9 @@ jobs:
     name: HTTP Status
     runs-on: ubuntu-latest
     steps:
-      - name: Check HTTP status
+      - name: Checkout repository
+        uses: actions/checkout@v1
+      - name: Check HTTP status of production site
         uses: ./
         with:
           sites: '["http://github.com", "https://education.github.com"]'
